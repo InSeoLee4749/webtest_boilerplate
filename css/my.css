@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+li,ul{
+    list-style: none;
+}
+
+/* 공통클래스 */
+.h100{
+    height:100px;
+}
+.h200{
+    height:200px;
+}
+.h300{
+    height:300px;
+}
+.w-100{
+    width:100%;
+}
+
+.container{
+    width: 1200px;
+}
+.m-auto{
+    margin: 0 auto;
+}
+.d-flex{
+    display: flex;
+}
+.d-none{
+    display: none;
+}
+.d-block{
+    display: block;
+}
+.rel{
+    position: relative;
+}
+.abs{
+    position: absolute;
+}
+.fix{
+    position: fixed;
+}
+.aic{
+    align-items: center;
+}
+.jcb{
+    justify-content: space-between;
+}
