@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+li,ul{
+    list-style: none;
+}
+/* 공통클래스 */
+.h100{
+    height: 100px;
+}
+.h200{
+    height: 200px;
+}
+.h300{
+    height: 300px;
+}
+.w-100{
+    width: 100px;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.d-flex{
+    display: flex;
+}
+.jcb{
+    justify-content: space-between;
+}
+.rel{
+    position: relative;
+}
+.abs{
+    position: absolute;
+}
+
+#hd{
+    background-color: #ccc;
+    align-items: center;
+}
+/*  */
+.d1a{
+    font-size: 22px;
+    padding: 0 15px;
+}
+
+/* 소메뉴 */
+#gnb ul{
+    background-color: #333;
+    width: 100px;
+    top: 100%;
+    left:0;
+    text-indent: 1rem;
+}
+#gnb ul a{
+    color: white;
+}
